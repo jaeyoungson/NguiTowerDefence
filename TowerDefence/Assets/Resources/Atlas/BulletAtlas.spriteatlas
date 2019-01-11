@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BulletAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: c2e3608bcd7a60b4cb028e4bab662e0a, type: 3}
+    - {fileID: 2800000, guid: f2feadb707611b0499cda0e66e4e8bc7, type: 3}
+    - {fileID: 2800000, guid: bf07e6985c475cd4e9c739be9ea23441, type: 3}
+    - {fileID: 2800000, guid: b5a4cf4f61c2ca34594a2310ac88fa1a, type: 3}
+    - {fileID: 2800000, guid: 306798bb819f98a4c82e49f6bae0dd7d, type: 3}
+    - {fileID: 2800000, guid: 9f8dd4b452005e748a6822f175bca565, type: 3}
+    - {fileID: 2800000, guid: 96cca80cb74e48c48ba9b2ebf3aa9eaa, type: 3}
+    - {fileID: 2800000, guid: 1f7bdff8bd1f9694db4c4c06c4be2c0f, type: 3}
+    - {fileID: 2800000, guid: 4144f1f5dc6f12c4ba24aef91cd7d035, type: 3}
+    - {fileID: 2800000, guid: 857e63e058ff3a14aab1411914bfd9c4, type: 3}
+    - {fileID: 2800000, guid: 999f75a995958904aa73733449145302, type: 3}
+    - {fileID: 2800000, guid: c626c8a56d731c7429e26c2a8096e77f, type: 3}
+    - {fileID: 2800000, guid: 3d8eb2018801ea24c8b8fc21f04638d0, type: 3}
+    - {fileID: 2800000, guid: 6832f55abae022c42a5cc2e3db4b7a63, type: 3}
+    - {fileID: 2800000, guid: b1897722656dc354a980afc565281e9d, type: 3}
+    - {fileID: 2800000, guid: c0309c048803c70498e796d49902140e, type: 3}
+    - {fileID: 2800000, guid: a89b26439457ff64fa3fe4c6c9534831, type: 3}
+    - {fileID: 2800000, guid: d83bbb8e22b55b340b4f20dbea1ac365, type: 3}
+    - {fileID: 2800000, guid: d57ea5660134ae84db49adc740f9391e, type: 3}
+    - {fileID: 2800000, guid: 51f6c28199a22c04d9e2a6f93f227f87, type: 3}
+    - {fileID: 2800000, guid: 7c4f5b6c48afc014e923217ef9235bcd, type: 3}
+    - {fileID: 2800000, guid: 44e38da4479aece4fb19b56bf5e2f871, type: 3}
+    - {fileID: 2800000, guid: 151f06325242b6b428597e6c4641daad, type: 3}
+    - {fileID: 2800000, guid: 05c4b5035de4b264880db25a83642302, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 857e63e058ff3a14aab1411914bfd9c4, type: 3}
+  - {fileID: 21300000, guid: 3d8eb2018801ea24c8b8fc21f04638d0, type: 3}
+  - {fileID: 21300000, guid: 51f6c28199a22c04d9e2a6f93f227f87, type: 3}
+  - {fileID: 21300000, guid: b1897722656dc354a980afc565281e9d, type: 3}
+  - {fileID: 21300000, guid: 151f06325242b6b428597e6c4641daad, type: 3}
+  - {fileID: 21300000, guid: 05c4b5035de4b264880db25a83642302, type: 3}
+  - {fileID: 21300000, guid: a89b26439457ff64fa3fe4c6c9534831, type: 3}
+  - {fileID: 21300000, guid: c0309c048803c70498e796d49902140e, type: 3}
+  - {fileID: 21300000, guid: 44e38da4479aece4fb19b56bf5e2f871, type: 3}
+  - {fileID: 21300000, guid: 9f8dd4b452005e748a6822f175bca565, type: 3}
+  - {fileID: 21300000, guid: c626c8a56d731c7429e26c2a8096e77f, type: 3}
+  - {fileID: 21300000, guid: 4144f1f5dc6f12c4ba24aef91cd7d035, type: 3}
+  - {fileID: 21300000, guid: d57ea5660134ae84db49adc740f9391e, type: 3}
+  - {fileID: 21300000, guid: f2feadb707611b0499cda0e66e4e8bc7, type: 3}
+  - {fileID: 21300000, guid: bf07e6985c475cd4e9c739be9ea23441, type: 3}
+  - {fileID: 21300000, guid: 1f7bdff8bd1f9694db4c4c06c4be2c0f, type: 3}
+  - {fileID: 21300000, guid: 999f75a995958904aa73733449145302, type: 3}
+  - {fileID: 21300000, guid: 6832f55abae022c42a5cc2e3db4b7a63, type: 3}
+  - {fileID: 21300000, guid: c2e3608bcd7a60b4cb028e4bab662e0a, type: 3}
+  - {fileID: 21300000, guid: 306798bb819f98a4c82e49f6bae0dd7d, type: 3}
+  - {fileID: 21300000, guid: 96cca80cb74e48c48ba9b2ebf3aa9eaa, type: 3}
+  - {fileID: 21300000, guid: 7c4f5b6c48afc014e923217ef9235bcd, type: 3}
+  - {fileID: 21300000, guid: d83bbb8e22b55b340b4f20dbea1ac365, type: 3}
+  - {fileID: 21300000, guid: b5a4cf4f61c2ca34594a2310ac88fa1a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - FlawedRed
+  - NormalBlack
+  - PerfectSky
+  - NormalChip
+  - PerfectWhite
+  - PerfectYellow
+  - NormalWhite
+  - NormalRed
+  - PerfectRed
+  - ChipYellow
+  - FlawedYellow
+  - FlawedGreen
+  - PerfectBlack
+  - ChipSky
+  - ChipGreen
+  - FlawedSky
+  - FlawedWhite
+  - NormalSky
+  - ChipBlack
+  - ChipWhite
+  - FlawedBlack
+  - PerfectGreen
+  - NormalYellow
+  - ChipRed
+  m_Tag: BulletAtlas
+  m_IsVariant: 0

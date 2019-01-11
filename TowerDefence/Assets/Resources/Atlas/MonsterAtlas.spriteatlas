@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: MonsterAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 07326f72c801f0747884c24bded49445, type: 3}
+    - {fileID: 2800000, guid: 1c8d470578f7a9c48bc27ee614146f0b, type: 3}
+    - {fileID: 2800000, guid: 1858b23e3577b594ba38acb9972c2bf1, type: 3}
+    - {fileID: 2800000, guid: e49e2aa9f6785fc4a8ebd19af99f670e, type: 3}
+    - {fileID: 2800000, guid: b0087ae3fa32ea7449d10cb2a0d264d2, type: 3}
+    - {fileID: 2800000, guid: aae3be4adddb8ea43ae501ae219e7683, type: 3}
+    - {fileID: 2800000, guid: c5952b35b6c5f064d86c66ddc8aadb07, type: 3}
+    - {fileID: 2800000, guid: ce62c833463ae854c9b5b6f567a3cc90, type: 3}
+    - {fileID: 2800000, guid: a1e59718687723c47953130f5c5955d6, type: 3}
+    - {fileID: 2800000, guid: 7cd50c9a46fb52847a843812a8e91fd6, type: 3}
+    - {fileID: 2800000, guid: d9d02be455b2d354f80033ba634f2fef, type: 3}
+    - {fileID: 2800000, guid: deacc3132af231b4eba745db8ef9a7a4, type: 3}
+    - {fileID: 2800000, guid: 5714d5be56cd37e4fb5e843acf27d8c8, type: 3}
+    - {fileID: 2800000, guid: 46e27a40eea414a449dae90857832f0f, type: 3}
+    - {fileID: 2800000, guid: 832b3d8e314b7d144a5dfd784e2199ce, type: 3}
+    - {fileID: 2800000, guid: 0291c489456cd2244b003ebf1d06a729, type: 3}
+    - {fileID: 2800000, guid: 927b632ffbb122b4fa6525dff683fb2b, type: 3}
+    - {fileID: 2800000, guid: 8032b32f0fb1f824fb6ffa947bcacc17, type: 3}
+    - {fileID: 2800000, guid: 42f10d331e4823044863b119210b6f57, type: 3}
+    - {fileID: 2800000, guid: 135fc834c201bd74c86ff06e503541fc, type: 3}
+    - {fileID: 2800000, guid: 5bddd1cd876661842af2d2e9cf342b02, type: 3}
+    - {fileID: 2800000, guid: 03385e872118bbb4caca10a879ceff23, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 46e27a40eea414a449dae90857832f0f, type: 3}
+  - {fileID: 21300000, guid: 07326f72c801f0747884c24bded49445, type: 3}
+  - {fileID: 21300000, guid: deacc3132af231b4eba745db8ef9a7a4, type: 3}
+  - {fileID: 21300000, guid: ce62c833463ae854c9b5b6f567a3cc90, type: 3}
+  - {fileID: 21300000, guid: 42f10d331e4823044863b119210b6f57, type: 3}
+  - {fileID: 21300000, guid: b0087ae3fa32ea7449d10cb2a0d264d2, type: 3}
+  - {fileID: 21300000, guid: 135fc834c201bd74c86ff06e503541fc, type: 3}
+  - {fileID: 21300000, guid: d9d02be455b2d354f80033ba634f2fef, type: 3}
+  - {fileID: 21300000, guid: 1c8d470578f7a9c48bc27ee614146f0b, type: 3}
+  - {fileID: 21300000, guid: c5952b35b6c5f064d86c66ddc8aadb07, type: 3}
+  - {fileID: 21300000, guid: 03385e872118bbb4caca10a879ceff23, type: 3}
+  - {fileID: 21300000, guid: a1e59718687723c47953130f5c5955d6, type: 3}
+  - {fileID: 21300000, guid: 0291c489456cd2244b003ebf1d06a729, type: 3}
+  - {fileID: 21300000, guid: e49e2aa9f6785fc4a8ebd19af99f670e, type: 3}
+  - {fileID: 21300000, guid: aae3be4adddb8ea43ae501ae219e7683, type: 3}
+  - {fileID: 21300000, guid: 7cd50c9a46fb52847a843812a8e91fd6, type: 3}
+  - {fileID: 21300000, guid: 5bddd1cd876661842af2d2e9cf342b02, type: 3}
+  - {fileID: 21300000, guid: 1858b23e3577b594ba38acb9972c2bf1, type: 3}
+  - {fileID: 21300000, guid: 832b3d8e314b7d144a5dfd784e2199ce, type: 3}
+  - {fileID: 21300000, guid: 5714d5be56cd37e4fb5e843acf27d8c8, type: 3}
+  - {fileID: 21300000, guid: 927b632ffbb122b4fa6525dff683fb2b, type: 3}
+  - {fileID: 21300000, guid: 8032b32f0fb1f824fb6ffa947bcacc17, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - RedEye
+  - BlueCar
+  - HitManWomen
+  - HitManBlue
+  - YellowEye
+  - GreenEye
+  - YellowTier
+  - HItManRed
+  - BlueEye
+  - HitMan
+  - Survivor
+  - HitManBrown
+  - RobotGreen
+  - GreenCar
+  - GreenTier
+  - HitManOld
+  - Zoimbie
+  - BlueTier
+  - RedTier
+  - RedCar
+  - WomanOld
+  - YellowCar
+  m_Tag: MonsterAtlas
+  m_IsVariant: 0

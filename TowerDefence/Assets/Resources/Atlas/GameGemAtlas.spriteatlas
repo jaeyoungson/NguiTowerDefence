@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: GameGemAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 52499209b82d9154297c0ff15b4744ac, type: 3}
+    - {fileID: 2800000, guid: 63721fd78ac0801428ac21bc5519ed9a, type: 3}
+    - {fileID: 2800000, guid: 23db90b8fb8aa4f449b290031eeb76c0, type: 3}
+    - {fileID: 2800000, guid: 0b9fbbe90fa31b3458c0d2d6f06db30d, type: 3}
+    - {fileID: 2800000, guid: e58e2093a55a24d4dba0162336eea95a, type: 3}
+    - {fileID: 2800000, guid: 61b1ff0a8245b4b4b9ce9e14461bc60b, type: 3}
+    - {fileID: 2800000, guid: bf1b3f03eecfec2418d10b0e446acd59, type: 3}
+    - {fileID: 2800000, guid: d2efc07dcdf6af449920cf1823a6f307, type: 3}
+    - {fileID: 2800000, guid: 8dc8f425c6275994ba142f0a786c1649, type: 3}
+    - {fileID: 2800000, guid: 77efaf6feae760f449ac8adc3bab6c26, type: 3}
+    - {fileID: 2800000, guid: 74879bcd3d1f0f744a531671571b046b, type: 3}
+    - {fileID: 2800000, guid: b773422d9d74be24db0b5c4ca913eb20, type: 3}
+    - {fileID: 2800000, guid: f3753a758f213a1488fe17d7e8982734, type: 3}
+    - {fileID: 2800000, guid: 2c6ed0e8ea731214d904f4926ca3cfd7, type: 3}
+    - {fileID: 2800000, guid: 09a386e3e48b65f478b248bd9a014892, type: 3}
+    - {fileID: 2800000, guid: 8ba4de351e80c9c4c89e989ed7c4b531, type: 3}
+    - {fileID: 2800000, guid: ecb26b9f93e75c7469d2a905702eaeed, type: 3}
+    - {fileID: 2800000, guid: 19847816f54ac2645bf2bebf94755c8a, type: 3}
+    - {fileID: 2800000, guid: 2f30b0a8126256944a956a17a16c790e, type: 3}
+    - {fileID: 2800000, guid: 5780869abfa955d499734423bdeb19ea, type: 3}
+    - {fileID: 2800000, guid: e4517ed19472a234fbec0e45bc52489d, type: 3}
+    - {fileID: 2800000, guid: 1ad61179a9d33e84480036a7bf9a52c5, type: 3}
+    - {fileID: 2800000, guid: 8d4f3c61c9a1acd429a231ac603142df, type: 3}
+    - {fileID: 2800000, guid: b81bb5785e1eb9b41a3bcbf41813a12e, type: 3}
+    - {fileID: 2800000, guid: c6c94b3a42c9bf249862a8b4651dd289, type: 3}
+    - {fileID: 2800000, guid: 3f3708cd44401464faff13b701e2406e, type: 3}
+    - {fileID: 2800000, guid: 4fa6eae2f26c0c447bd260dd14463393, type: 3}
+    - {fileID: 2800000, guid: 77005068dc33f4341b9415c94257a1d1, type: 3}
+    - {fileID: 2800000, guid: 7ee3551ddad1faa469c1869d07a7c7a4, type: 3}
+    - {fileID: 2800000, guid: 1428918a2deebde42a986931a16fdf1c, type: 3}
+    - {fileID: 2800000, guid: 0ee5c5c0f809f2546a960c8447864b42, type: 3}
+    - {fileID: 2800000, guid: 30e1e7252a6d7984f899d038ce7a4239, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 0ee5c5c0f809f2546a960c8447864b42, type: 3}
+  - {fileID: 21300000, guid: 8d4f3c61c9a1acd429a231ac603142df, type: 3}
+  - {fileID: 21300000, guid: e4517ed19472a234fbec0e45bc52489d, type: 3}
+  - {fileID: 21300000, guid: 4fa6eae2f26c0c447bd260dd14463393, type: 3}
+  - {fileID: 21300000, guid: bf1b3f03eecfec2418d10b0e446acd59, type: 3}
+  - {fileID: 21300000, guid: e58e2093a55a24d4dba0162336eea95a, type: 3}
+  - {fileID: 21300000, guid: 09a386e3e48b65f478b248bd9a014892, type: 3}
+  - {fileID: 21300000, guid: 8dc8f425c6275994ba142f0a786c1649, type: 3}
+  - {fileID: 21300000, guid: 30e1e7252a6d7984f899d038ce7a4239, type: 3}
+  - {fileID: 21300000, guid: 8ba4de351e80c9c4c89e989ed7c4b531, type: 3}
+  - {fileID: 21300000, guid: f3753a758f213a1488fe17d7e8982734, type: 3}
+  - {fileID: 21300000, guid: 19847816f54ac2645bf2bebf94755c8a, type: 3}
+  - {fileID: 21300000, guid: 63721fd78ac0801428ac21bc5519ed9a, type: 3}
+  - {fileID: 21300000, guid: 77005068dc33f4341b9415c94257a1d1, type: 3}
+  - {fileID: 21300000, guid: b81bb5785e1eb9b41a3bcbf41813a12e, type: 3}
+  - {fileID: 21300000, guid: 2f30b0a8126256944a956a17a16c790e, type: 3}
+  - {fileID: 21300000, guid: 23db90b8fb8aa4f449b290031eeb76c0, type: 3}
+  - {fileID: 21300000, guid: 2c6ed0e8ea731214d904f4926ca3cfd7, type: 3}
+  - {fileID: 21300000, guid: 52499209b82d9154297c0ff15b4744ac, type: 3}
+  - {fileID: 21300000, guid: 1ad61179a9d33e84480036a7bf9a52c5, type: 3}
+  - {fileID: 21300000, guid: 0b9fbbe90fa31b3458c0d2d6f06db30d, type: 3}
+  - {fileID: 21300000, guid: 61b1ff0a8245b4b4b9ce9e14461bc60b, type: 3}
+  - {fileID: 21300000, guid: c6c94b3a42c9bf249862a8b4651dd289, type: 3}
+  - {fileID: 21300000, guid: 1428918a2deebde42a986931a16fdf1c, type: 3}
+  - {fileID: 21300000, guid: 5780869abfa955d499734423bdeb19ea, type: 3}
+  - {fileID: 21300000, guid: 7ee3551ddad1faa469c1869d07a7c7a4, type: 3}
+  - {fileID: 21300000, guid: b773422d9d74be24db0b5c4ca913eb20, type: 3}
+  - {fileID: 21300000, guid: d2efc07dcdf6af449920cf1823a6f307, type: 3}
+  - {fileID: 21300000, guid: 3f3708cd44401464faff13b701e2406e, type: 3}
+  - {fileID: 21300000, guid: 74879bcd3d1f0f744a531671571b046b, type: 3}
+  - {fileID: 21300000, guid: 77efaf6feae760f449ac8adc3bab6c26, type: 3}
+  - {fileID: 21300000, guid: ecb26b9f93e75c7469d2a905702eaeed, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Stone
+  - NormalWhite
+  - NormalRed
+  - PerfectWhite
+  - FlawedGreen
+  - ChipYellow
+  - FlawlessSky
+  - FlawedSky
+  - ChipGreen
+  - FlawlessWhite
+  - FlawlessGreen
+  - NormalBlack
+  - ChipRed
+  - PerfectBlack
+  - NormalYellow
+  - NormalGreen
+  - ChipSky
+  - FlawlessRed
+  - PerfectSky
+  - NormalSky
+  - ChipWhite
+  - FlawedBlack
+  - ChipBlack
+  - PerfectRed
+  - NormalOrange
+  - PerfectGreen
+  - FlawlessBlack
+  - FlawedRed
+  - PerfectYellow
+  - FlawedYellow
+  - FlawedWhite
+  - FlawlessYellow
+  m_Tag: GameGemAtlas
+  m_IsVariant: 0

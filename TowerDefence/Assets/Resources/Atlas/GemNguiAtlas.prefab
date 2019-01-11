@@ -1,0 +1,891 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1125195867011902}
+  m_IsPrefabAsset: 1
+--- !u!1 &1125195867011902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4900908044656886}
+  - component: {fileID: 114583658725854060}
+  m_Layer: 0
+  m_Name: GemNguiAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4900908044656886
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1125195867011902}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114583658725854060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1125195867011902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2bcfa59fdc46e04e97a98ba479dc2a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 938cbe17004f558419b1018aff15e554, type: 2}
+  mSprites:
+  - name: Black06
+    x: 0
+    y: 447
+    width: 65
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 5
+  - name: Black07
+    x: 66
+    y: 121
+    width: 65
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 5
+  - name: Black08
+    x: 430
+    y: 20
+    width: 64
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 7
+  - name: ChipBlack
+    x: 482
+    y: 83
+    width: 65
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 5
+  - name: ChipGreen
+    x: 495
+    y: 17
+    width: 65
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 5
+    paddingBottom: 0
+  - name: ChipOrange
+    x: 458
+    y: 321
+    width: 65
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 7
+    paddingBottom: 0
+  - name: ChipPurple
+    x: 496
+    y: 255
+    width: 65
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 3
+    paddingBottom: 2
+  - name: ChipRed
+    x: 546
+    y: 189
+    width: 65
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 3
+  - name: ChipSky
+    x: 548
+    y: 123
+    width: 65
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 4
+    paddingBottom: 1
+  - name: ChipWhite
+    x: 393
+    y: 447
+    width: 65
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 4
+  - name: ChipYellow
+    x: 416
+    y: 82
+    width: 65
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 6
+    paddingBottom: 0
+  - name: FlawedBlack
+    x: 300
+    y: 64
+    width: 50
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 8
+    paddingTop: 0
+    paddingBottom: 5
+  - name: FlawedGreen
+    x: 198
+    y: 68
+    width: 50
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 8
+    paddingTop: 5
+    paddingBottom: 0
+  - name: FlawedOrange
+    x: 315
+    y: 198
+    width: 50
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 8
+    paddingTop: 7
+    paddingBottom: 0
+  - name: FlawedPurple
+    x: 300
+    y: 130
+    width: 50
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 8
+    paddingTop: 3
+    paddingBottom: 2
+  - name: FlawedRed
+    x: 264
+    y: 196
+    width: 50
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 8
+    paddingTop: 2
+    paddingBottom: 3
+  - name: FlawedSky
+    x: 249
+    y: 2
+    width: 50
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 8
+    paddingTop: 4
+    paddingBottom: 1
+  - name: FlawedWhite
+    x: 249
+    y: 68
+    width: 50
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 8
+    paddingTop: 1
+    paddingBottom: 4
+  - name: FlawedYellow
+    x: 198
+    y: 3
+    width: 50
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 8
+    paddingTop: 6
+    paddingBottom: 0
+  - name: FlawlessBlack
+    x: 263
+    y: 455
+    width: 65
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 0
+    paddingTop: 4
+    paddingBottom: 9
+  - name: FlawlessGreen
+    x: 132
+    y: 61
+    width: 65
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 0
+    paddingTop: 9
+    paddingBottom: 4
+  - name: FlawlessOrange
+    x: 198
+    y: 196
+    width: 65
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 0
+    paddingTop: 11
+    paddingBottom: 2
+  - name: FlawlessPurple
+    x: 132
+    y: 3
+    width: 65
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 0
+    paddingTop: 7
+    paddingBottom: 6
+  - name: FlawlessRed
+    x: 261
+    y: 391
+    width: 65
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 0
+    paddingTop: 6
+    paddingBottom: 7
+  - name: FlawlessSky
+    x: 327
+    y: 397
+    width: 65
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 0
+    paddingTop: 8
+    paddingBottom: 5
+  - name: FlawlessWhite
+    x: 263
+    y: 333
+    width: 65
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 0
+    paddingTop: 5
+    paddingBottom: 8
+  - name: FlawlessYellow
+    x: 262
+    y: 262
+    width: 65
+    height: 57
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 0
+    paddingTop: 10
+    paddingBottom: 3
+  - name: Green06
+    x: 0
+    y: 184
+    width: 65
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 5
+    paddingBottom: 0
+  - name: Green07
+    x: 132
+    y: 119
+    width: 65
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 5
+    paddingBottom: 0
+  - name: Green08
+    x: 328
+    y: 271
+    width: 64
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 7
+    paddingBottom: 2
+  - name: NormalBlack
+    x: 198
+    y: 134
+    width: 64
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 7
+  - name: NormalGreen
+    x: 481
+    y: 149
+    width: 64
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 7
+    paddingBottom: 2
+  - name: NormalOrange
+    x: 459
+    y: 451
+    width: 64
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 9
+    paddingBottom: 0
+  - name: NormalPurple
+    x: 329
+    y: 335
+    width: 64
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 5
+    paddingBottom: 4
+  - name: NormalRed
+    x: 300
+    y: 2
+    width: 64
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 4
+    paddingBottom: 5
+  - name: NormalSky
+    x: 366
+    y: 209
+    width: 64
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 6
+    paddingBottom: 3
+  - name: NormalWhite
+    x: 351
+    y: 136
+    width: 64
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 3
+    paddingBottom: 6
+  - name: NormalYellow
+    x: 561
+    y: 60
+    width: 64
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 8
+    paddingBottom: 0
+  - name: Orange06
+    x: 0
+    y: 54
+    width: 65
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 7
+    paddingBottom: 0
+  - name: Orange07
+    x: 66
+    y: 313
+    width: 65
+    height: 69
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Orange08
+    x: 431
+    y: 211
+    width: 64
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 9
+    paddingBottom: 0
+  - name: PerfectBlack
+    x: 66
+    y: 383
+    width: 64
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 6
+  - name: PerfectGreen
+    x: 132
+    y: 449
+    width: 64
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 6
+    paddingBottom: 1
+  - name: PerfectOrange
+    x: 66
+    y: 250
+    width: 64
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 8
+    paddingBottom: 0
+  - name: PerfectPurple
+    x: 131
+    y: 383
+    width: 64
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 4
+    paddingBottom: 3
+  - name: PerfectRed
+    x: 131
+    y: 249
+    width: 64
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 3
+    paddingBottom: 4
+  - name: PerfectSky
+    x: 132
+    y: 319
+    width: 64
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 5
+    paddingBottom: 2
+  - name: PerfectWhite
+    x: 66
+    y: 186
+    width: 64
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 5
+  - name: PerfectYellow
+    x: 196
+    y: 385
+    width: 64
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 7
+    paddingBottom: 0
+  - name: Purple06
+    x: 0
+    y: 315
+    width: 65
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 3
+    paddingBottom: 2
+  - name: Purple07
+    x: 66
+    y: 56
+    width: 65
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 3
+    paddingBottom: 2
+  - name: Purple08
+    x: 416
+    y: 147
+    width: 64
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 5
+    paddingBottom: 4
+  - name: Red06
+    x: 0
+    y: 381
+    width: 65
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 3
+  - name: Red07
+    x: 197
+    y: 320
+    width: 65
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 3
+  - name: Red08
+    x: 394
+    y: 385
+    width: 64
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 4
+    paddingBottom: 5
+  - name: Sky06
+    x: 66
+    y: 447
+    width: 65
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 4
+    paddingBottom: 1
+  - name: Sky07
+    x: 132
+    y: 184
+    width: 65
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 4
+    paddingBottom: 1
+  - name: Sky08
+    x: 365
+    y: 12
+    width: 64
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 6
+    paddingBottom: 3
+  - name: White06
+    x: 0
+    y: 118
+    width: 65
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 4
+  - name: White07
+    x: 196
+    y: 254
+    width: 65
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 4
+  - name: White08
+    x: 351
+    y: 74
+    width: 64
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 3
+    paddingBottom: 6
+  - name: Yellow06
+    x: 0
+    y: 250
+    width: 65
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 6
+    paddingBottom: 0
+  - name: Yellow07
+    x: 197
+    y: 449
+    width: 65
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 6
+    paddingBottom: 0
+  - name: Yellow08
+    x: 393
+    y: 273
+    width: 64
+    height: 61
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 8
+    paddingBottom: 1
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
