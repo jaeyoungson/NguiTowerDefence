@@ -4,7 +4,8 @@
 SpriteAtlas:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: MonsterAtlas
   m_EditorData:
     serializedVersion: 2
@@ -51,6 +52,7 @@ SpriteAtlas:
     - {fileID: 2800000, guid: 135fc834c201bd74c86ff06e503541fc, type: 3}
     - {fileID: 2800000, guid: 5bddd1cd876661842af2d2e9cf342b02, type: 3}
     - {fileID: 2800000, guid: 03385e872118bbb4caca10a879ceff23, type: 3}
+    totalSpriteSurfaceArea: 24192
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:

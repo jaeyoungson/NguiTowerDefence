@@ -13,8 +13,10 @@ public class AutoEnqueueEffect : MonoBehaviour
             StartCoroutine(EffectEnqueue());
         }
     }
+
     private IEnumerator EffectEnqueue()
     {
+        //파티클의 지속시간이 끝나면 queue에  자동으로 들어감
         effect = gameObject.GetComponent<Effect>();
         enumeratorOn =true;
          yield return new WaitForSeconds(effect.particle.main.duration);

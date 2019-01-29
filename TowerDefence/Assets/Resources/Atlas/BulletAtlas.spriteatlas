@@ -4,7 +4,8 @@
 SpriteAtlas:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: BulletAtlas
   m_EditorData:
     serializedVersion: 2
@@ -53,6 +54,7 @@ SpriteAtlas:
     - {fileID: 2800000, guid: 44e38da4479aece4fb19b56bf5e2f871, type: 3}
     - {fileID: 2800000, guid: 151f06325242b6b428597e6c4641daad, type: 3}
     - {fileID: 2800000, guid: 05c4b5035de4b264880db25a83642302, type: 3}
+    totalSpriteSurfaceArea: 11904
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
